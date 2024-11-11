@@ -1,0 +1,42 @@
+/* BASIC STYLES HERE */
+
+* {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+a {
+  right: unset;
+  left: 0
+}
+
+#total-money {
+  border: 2px solid var(--bs-light);
+}
+
+.spicy-chip {
+  background-image: url(https://em-content.zobj.net/source/facebook/65/chocolate-bar_1f36b.png);
+  background-position: center;
+  background-size: 93%;
+  background-repeat: no-repeat;
+  text-shadow: 2px 2px black;
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+  }
+}
